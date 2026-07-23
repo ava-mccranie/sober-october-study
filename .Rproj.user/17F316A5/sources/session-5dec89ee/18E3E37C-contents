@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  search: false
+  navbar:
+    logo: logo.png
+    
+    right:
+      - text: "Apply Now"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+editor: visual
+
