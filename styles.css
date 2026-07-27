@@ -22,3 +22,21 @@
 h1, h2, h3, h4 {
   border-bottom: none !important;
 }
+
+/* Fast Facts responsive layout */
+.fast-facts .columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fast-facts .column {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .fast-facts .column {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+  }
+}
