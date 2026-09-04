@@ -11,7 +11,12 @@ Researchers at the University of Georgia are looking for adults who plan to quit
 
 <div style="text-align: center; margin: 40px 0;">
 
-<a href="#"
+<a href="https://uga.questionpro.com/sober-october-screener"
+   onclick="gtag('event', 'conversion', {
+     'send_to': 'AW-18428233998/AYsNCMnbr-4cEI6SotNE',
+     'value': 1.0,
+     'currency': 'USD'
+   });"
    style="
      background-color: #BA0C2F;
      color: white;
@@ -91,7 +96,12 @@ Many people take part in "Sober October," a month-long challenge where individua
 If you're 18 or older, planning to stop drinking for Sober October, and have a history of regular alcohol use, you may be eligible. Your participation can help us learn how people make meaningful changes to their drinking, and you can do it all from home. Over the course of the year, you will complete eight online surveys for up to $240. 
 
 
-<a href="#"
+<a href="https://uga.questionpro.com/sober-october-screener"
+   onclick="gtag('event', 'conversion', {
+     'send_to': 'AW-18428233998/AYsNCMnbr-4cEI6SotNE',
+     'value': 1.0,
+     'currency': 'USD'
+   });"
    style="
      background-color: white;
      color: black;
