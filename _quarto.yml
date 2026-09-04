@@ -8,6 +8,7 @@ website:
     
     right:
       - text: "Apply Now"
+        href: https://uga.questionpro.com/sober-october-screener
 
 format:
   html:
@@ -20,14 +21,32 @@ format:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18428233998"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-18428233998');
-    </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18428233998"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-18428233998');
+        </script>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            const navbarApply = document.querySelector('.navbar a[href="https://uga.questionpro.com/sober-october-screener"]');
+
+            if (navbarApply) {
+              navbarApply.addEventListener('click', function() {
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-18428233998/AYsNCMnbr-4cEI6SotNE',
+                  'value': 1.0,
+                  'currency': 'USD'
+                });
+              });
+            }
+          });
+        </script>
+
+
     
 editor: visual
 
