@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,7 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -55,6 +55,31 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-18428233998"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18428233998');
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navbarApply = document.querySelector('.navbar a[href="https://uga.questionpro.com/sober-october-screener"]');
+
+    if (navbarApply) {
+      navbarApply.addEventListener('click', function() {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18428233998/AYsNCMnbr-4cEI6SotNE',
+          'value': 1.0,
+          'currency': 'USD'
+        });
+      });
+    }
+  });
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -104,7 +129,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Researchers at the University of Georgia are looking for adults who plan to quit drinking for Sober October to participate in an online research study.</p>
 </section>
 <div style="text-align: center; margin: 40px 0;">
-<p><a href="https://uga.questionpro.com/sober-october-screener" style="
+<p><a href="https://uga.questionpro.com/sober-october-screener" onclick="gtag('event', 'conversion', {
+     'send_to': 'AW-18428233998/AYsNCMnbr-4cEI6SotNE',
+     'value': 1.0,
+     'currency': 'USD'
+   });" style="
      background-color: #BA0C2F;
      color: white;
      padding: 8px 16px;
@@ -118,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="text-center">
 <p><img src="calendar.png" class="img-fluid" width="2000"></p>
 </div>
-<div class="fast-facts" style="background-color: #D6D2C4; color: black; width: 90%; margin: 75px auto 50px auto; border-radius: 15px; text-align: center; padding: 25px;">
+<div style="background-color: #D6D2C4; color: black; width: 90%; margin: 75px auto 50px auto; border-radius: 15px; text-align: center; padding: 25px;">
 <div style="font-weight: 700; font-size: 1.5rem; margin: 0 0 10px 0;">
 <p>Fast Facts</p>
 </div>
@@ -161,7 +190,11 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Help researchers at the University of Georgia understand why people take part in Sober October and its long-term effects.</strong></p>
 <p>Many people take part in “Sober October,” a month-long challenge where individuals voluntarily stop drinking alcohol. Researchers are interested in understanding the thoughts, feelings, and behaviors that influence participation and success in this kind of alcohol-free challenge and what, if any, are the long-term effects of participation.</p>
 <p>If you’re 18 or older, planning to stop drinking for Sober October, and have a history of regular alcohol use, you may be eligible. Your participation can help us learn how people make meaningful changes to their drinking, and you can do it all from home. Over the course of the year, you will complete eight online surveys for up to $240.</p>
-<p><a href="https://uga.questionpro.com/sober-october-screener" style="
+<p><a href="https://uga.questionpro.com/sober-october-screener" onclick="gtag('event', 'conversion', {
+     'send_to': 'AW-18428233998/AYsNCMnbr-4cEI6SotNE',
+     'value': 1.0,
+     'currency': 'USD'
+   });" style="
      background-color: white;
      color: black;
      padding: 8px 16px;
@@ -353,7 +386,7 @@ A final 1-hour survey 12 months later
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/soberoctoberstudy\.org");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
